@@ -6,6 +6,8 @@ import { signupUserRouter } from "./signup";
 
 const router = express.Router();
 
+// Better approach to handle routes.
+// https://typeofnan.dev/your-first-node-express-app-with-typescript/
 router.use(
   "/api/users",
   currentUserRouter,
