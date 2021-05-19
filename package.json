@@ -15,6 +15,11 @@
     "setupFilesAfterEnv": [
       "./src/test/setup.ts",
       "./src/test/setEnvVars.ts"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
     ]
   },
   "keywords": [],
