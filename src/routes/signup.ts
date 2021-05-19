@@ -1,4 +1,5 @@
-import { BadRequestError, validateRequest } from "@git-tickets/common";
+import { validateRequest } from "@git-tickets/common/middleware";
+import { BadRequestError } from "@git-tickets/common/errors";
 import { body } from "express-validator";
 import { Router, Request, Response } from "express";
 import { User } from "../models/user";
