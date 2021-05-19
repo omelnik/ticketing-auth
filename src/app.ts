@@ -1,6 +1,7 @@
 import "express-async-errors";
 import { json } from "body-parser";
-import { NotFoundError, errorHandler } from "@git-tickets/common";
+import { NotFoundError } from "@git-tickets/common/errors";
+import { errorHandler } from "@git-tickets/common/middleware";
 import cookieSession from "cookie-session";
 import express from "express";
 import router from "./routes/index";
